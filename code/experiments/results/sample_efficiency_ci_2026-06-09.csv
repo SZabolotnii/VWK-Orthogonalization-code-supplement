@@ -1,0 +1,13 @@
+series,n,ratio_point,ci_lo,ci_hi,reps,n_boot,ci_level
+centered_exponential_skew / W over oracle,600,4.164253,3.502021,5.181285,80,4000,0.95
+centered_exponential_skew / W over oracle,1200,7.210662,5.657087,9.253650,80,4000,0.95
+centered_exponential_skew / W over oracle,2500,13.808281,11.541871,16.895526,80,4000,0.95
+centered_exponential_skew / W over oracle,5000,26.542984,23.038346,30.949912,80,4000,0.95
+centered_exponential_skew / W over empirical,600,6.197606,5.218196,7.649132,80,4000,0.95
+centered_exponential_skew / W over empirical,1200,11.714029,9.509772,14.871546,80,4000,0.95
+centered_exponential_skew / W over empirical,2500,18.272860,14.719440,23.189477,80,4000,0.95
+centered_exponential_skew / W over empirical,5000,39.960106,32.541787,49.664385,80,4000,0.95
+gaussian_control / W over oracle,600,1.000000,1.000000,1.000000,80,4000,0.95
+gaussian_control / W over oracle,1200,1.000000,1.000000,1.000000,80,4000,0.95
+gaussian_control / W over oracle,2500,1.000000,1.000000,1.000000,80,4000,0.95
+gaussian_control / W over oracle,5000,1.000000,1.000000,1.000000,80,4000,0.95
