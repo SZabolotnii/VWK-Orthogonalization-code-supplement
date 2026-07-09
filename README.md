@@ -1,9 +1,9 @@
 # VWK Orthogonalization — Code & Lean Supplement
 
-Reproducibility supplement for the paper **"Volterra–Wiener–Kunchenko
-Orthogonalization: From Wiener–Hermite to Distribution-Matched Volterra Bases"**
-(Serhii V. Zabolotnii). It reproduces every table, figure, and formal-proof claim
-in the paper.
+Reproducibility supplement for the paper **"Distribution-Matched Volterra
+Identification under Non-Gaussian Input: A Closed-Form Skew Penalty for the
+Wiener Cross-Correlation Estimator"** (Serhii V. Zabolotnii). It reproduces every
+table, figure, and formal-proof claim in the paper.
 
 ## Contents
 - `code/vwk/` — VWK basis construction (oriented Gram–Schmidt in L²(P)) + finite-memory
@@ -35,7 +35,8 @@ The proofs are **`sorry`-free**: `#print axioms` reports only
 ## Reproduction map
 | Manuscript artifact | Script |
 |---|---|
-| `tab:conditioning`, `tab:ridge` | `run_conditioning.py` |
+| `tab:dgp` (data-generating spec) | regimes in `run_synthetic_h4.py` |
+| `tab:conditioning` (incl. empirical VWK Gram), `tab:ridge` (fixed-η + CV-tuned) | `run_conditioning.py` |
 | `tab:h4` | `run_synthetic_h4.py` |
 | `tab:deconfound` | `verify_deconfound.py` |
 | penalty proposition (W/V ≈ 32.36) | `verify_penalty_proposition.py` |
@@ -48,5 +49,6 @@ The proofs are **`sorry`-free**: `#print axioms` reports only
 MIT — see [`LICENSE`](LICENSE).
 
 ## Citation
-If you use this code, please cite the paper: S. V. Zabolotnii, *Volterra–Wiener–Kunchenko
-Orthogonalization: From Wiener–Hermite to Distribution-Matched Volterra Bases* (2026).
+If you use this code, please cite the paper: S. V. Zabolotnii, *Distribution-Matched
+Volterra Identification under Non-Gaussian Input: A Closed-Form Skew Penalty for the
+Wiener Cross-Correlation Estimator* (2026).
