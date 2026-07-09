@@ -1,9 +1,9 @@
 # VWK Orthogonalization — Code & Lean Supplement
 
-Reproducibility supplement for the paper **"Distribution-Matched Volterra
-Identification under Non-Gaussian Input: A Closed-Form Skew Penalty for the
-Wiener Cross-Correlation Estimator"** (Serhii V. Zabolotnii). It reproduces every
-table, figure, and formal-proof claim in the paper.
+Reproducibility supplement for the paper **"A Closed-Form Skew Penalty for
+Volterra Cross-Correlation Identification under Non-Gaussian Input"**
+(Serhii V. Zabolotnii). It reproduces every table, figure, and formal-proof
+claim in the paper.
 
 ## Contents
 - `code/vwk/` — VWK basis construction (oriented Gram–Schmidt in L²(P)) + finite-memory
@@ -49,6 +49,5 @@ The proofs are **`sorry`-free**: `#print axioms` reports only
 MIT — see [`LICENSE`](LICENSE).
 
 ## Citation
-If you use this code, please cite the paper: S. V. Zabolotnii, *Distribution-Matched
-Volterra Identification under Non-Gaussian Input: A Closed-Form Skew Penalty for the
-Wiener Cross-Correlation Estimator* (2026).
+If you use this code, please cite the paper: S. V. Zabolotnii, *A Closed-Form Skew
+Penalty for Volterra Cross-Correlation Identification under Non-Gaussian Input* (2026).
